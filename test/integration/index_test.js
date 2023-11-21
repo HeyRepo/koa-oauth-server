@@ -27,6 +27,7 @@ describe('KoaOAuthServer', function() {
     app = new Koa();
 
     app.use(koaBody({
+      json: true,
       urlencoded: true,
     }));
   });
