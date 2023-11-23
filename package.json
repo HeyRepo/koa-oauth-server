@@ -27,7 +27,8 @@
   ],
   "contributors": [
     "Nuno Sousa <nfs@seegno.com>",
-    "Jan Küster <info@jankuester.com>"
+    "Jan Küster <info@jankuester.com>",
+    "Wilco Bakker <wilco@heyrepo.com>"
   ],
   "license": "MIT",
   "dependencies": {
