@@ -26,10 +26,7 @@ describe('KoaOAuthServer', function() {
   beforeEach(function() {
     app = new Koa();
 
-    app.use(koaBody({
-      json: true,
-      urlencoded: true,
-    }));
+    app.use(koaBody());
   });
 
   describe('constructor()', function() {
